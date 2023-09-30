@@ -14,7 +14,7 @@
 }
 
 .header {
-  min-block-size: 100vh;
+  max-block-size: 100vh;
   min-block-size: 668px;
   display: grid;
   padding: var(--padding);
@@ -232,7 +232,7 @@
 }
 
 .footer {
-  height: 100vh;
+  max-block-size: 100vh;
   min-block-size: 668px;
   display: grid;
   align-items: center;
