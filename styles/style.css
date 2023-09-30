@@ -186,6 +186,11 @@
 
 }
 
+.container {
+  display: grid;
+  gap: 20px;
+}
+
 .section__text {
   color: inherit;
   font-size: inherit;
@@ -354,13 +359,15 @@
   }
 
   .container {
-    display: grid;
-    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
   }
 
   .block-what .content__title {
     grid-template-columns: 1fr 2fr;
+  }
+
+  .footer {
+    min-block-size: 768px;
   }
 
   .footer__title {
