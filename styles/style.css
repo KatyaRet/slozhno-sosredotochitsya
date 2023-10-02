@@ -7,7 +7,7 @@
   background-image: var(--header-image);
   background-position: center;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: var(--bg-color, #000028);
   font-family: var(--font-family, monospace);
@@ -162,7 +162,7 @@
 .header__text {
   align-self: center;
   line-height: 130%;
-  font-size: 18px;
+  font-size: inherit;
   font-weight: 700;
   font-style: normal;
 }
@@ -178,13 +178,13 @@
 .content__text {
   display: grid;
   gap: 20px;
-  font-size: 18px;
+  font-size: inherit;
 }
 
 .content__title {
-  font-size: 18px;
+  font-size: inherit;
   color: var(--menu-color, #ff0070);
-  line-height: 130%;
+  line-height: inherit;
 
 }
 
