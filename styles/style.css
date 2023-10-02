@@ -281,7 +281,7 @@
   .block-why,
   .block-how {
     display: grid;
-    grid-template-columns: 1fr 2.2fr;
+    grid-template-columns: 1fr 2.1fr;
     grid-column-gap: 19.93px;
   }
   
