@@ -162,7 +162,7 @@
 .header__text {
   align-self: center;
   line-height: 130%;
-  font-size: inherit;
+  font-size: 18px;
   font-weight: 700;
   font-style: normal;
 }
@@ -186,7 +186,6 @@
   font-size: 18px;
   color: var(--menu-color, #ff0070);
   line-height: 130%;
-
 }
 
 .container {
@@ -282,7 +281,7 @@
   .block-why,
   .block-how {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.2fr;
     grid-column-gap: 19.93px;
   }
   
@@ -352,6 +351,7 @@
 
   .header__title {
     text-shadow: 4px 4px 0 var(--accent-title, #FF0070);
+    margin-inline-start: -20px;
   }
 
   .header__theme-menu {
