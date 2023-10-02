@@ -178,13 +178,13 @@
 .content__text {
   display: grid;
   gap: 20px;
-  font-size: inherit;
+  font-size: 18px;
 }
 
 .content__title {
-  font-size: inherit;
+  font-size: 18px;
   color: var(--menu-color, #ff0070);
-  line-height: inherit;
+  line-height: 130%;
 
 }
 
@@ -195,7 +195,7 @@
 
 .section__text {
   color: inherit;
-  font-size: inherit;
+  font-size: 18px;
   line-height: 130%;
   margin-block-start: 10px;
 }
