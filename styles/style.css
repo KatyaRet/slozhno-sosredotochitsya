@@ -173,6 +173,7 @@
   padding-inline-start: var(--padding);
   padding-inline-end: var(--padding);
   margin-block-start: var(--margin);
+  margin-block-end: var(--margin);
 }
 
 .content__text {
@@ -197,6 +198,7 @@
   color: inherit;
   font-size: 18px;
   line-height: 130%;
+  font-weight: 400;
   margin-block-start: 10px;
 }
 
@@ -223,7 +225,6 @@
 
 .gallery {
   inline-size: 100%;
-  margin-block-end: 40px;
 }
 
 .gallery__cards {
