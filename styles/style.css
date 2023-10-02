@@ -355,6 +355,7 @@
   }
 
   .header__theme-menu {
+    font-size: 18px;
     max-inline-size: fit-content;
     justify-self: center;
     align-self: start;
