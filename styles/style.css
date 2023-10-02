@@ -15,6 +15,7 @@
 
 .header {
   min-block-size: 100vh;
+  max-block-size: 668px;
   display: grid;
   padding: var(--padding);
   grid-template-rows: 1fr min-content 1fr;
@@ -241,7 +242,7 @@
 .footer {
   display: grid;
   min-block-size: 100vh;
-  display: grid;
+  max-block-size: 668px;
   align-items: center;
   padding: var(--padding);
 }
@@ -255,7 +256,7 @@
 @media (width>=768px) {
   .header {
     --padding: 20px;
-    min-block-size: 1024px;
+    max-block-size: 1024px;
   }
 
   .title {
@@ -281,6 +282,7 @@
   .block-how {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-column-gap: 19.93px;
   }
   
   .block-why .section,
@@ -333,6 +335,7 @@
 
   .footer {
     --padding: 20px;
+    max-block-size: 1024px;
   }
 
   .footer__title {
@@ -343,7 +346,7 @@
 
 @media (width>=1024px) {
   .header {
-    min-block-size: 768px;
+    max-block-size: 768px;
   }
 
   .header__title {
@@ -367,6 +370,10 @@
 
   .block-what .content__title {
     grid-template-columns: 1fr 2fr;
+  }
+
+  .footer {
+    max-block-size: 768px;
   }
 
   .footer__title {
